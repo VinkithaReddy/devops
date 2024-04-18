@@ -1,0 +1,653 @@
+
+Net-25@DESKTOP-VI9O7ER MINGW64 ~
+$ git config --global user.name "vinkitha"
+
+Net-25@DESKTOP-VI9O7ER MINGW64 ~
+$ git config --global user.name
+vinkitha
+
+Net-25@DESKTOP-VI9O7ER MINGW64 ~
+$ git config --global user.email "Vinkithareddy12@gmail.com"
+
+Net-25@DESKTOP-VI9O7ER MINGW64 ~
+$ git config --global user.email
+Vinkithareddy12@gmail.com
+
+Net-25@DESKTOP-VI9O7ER MINGW64 ~
+$ git init
+Initialized empty Git repository in C:/Users/Net-25/.git/
+
+Net-25@DESKTOP-VI9O7ER MINGW64 ~ (master)
+$ touch login.html
+
+Net-25@DESKTOP-VI9O7ER MINGW64 ~ (master)
+$ git status
+warning: could not open directory 'Application Data/': Permission denied
+warning: could not open directory 'Cookies/': Permission denied
+warning: could not open directory 'Local Settings/': Permission denied
+warning: could not open directory 'My Documents/': Permission denied
+warning: could not open directory 'NetHood/': Permission denied
+warning: could not open directory 'PrintHood/': Permission denied
+warning: could not open directory 'Recent/': Permission denied
+warning: could not open directory 'SendTo/': Permission denied
+warning: could not open directory 'Start Menu/': Permission denied
+warning: could not open directory 'Templates/': Permission denied
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .appletviewer
+        .cache/
+        .condarc
+        .continuum/
+        .gitconfig
+        .idlerc/
+        .ipynb_checkpoints/
+        .ipython/
+        .irbrc
+        .jupyter/
+        .matplotlib/
+        .nbi/
+        .spyder-py3/
+        .vscode/
+        20523h - Shortcut.lnk
+        3D Objects/
+        AppData/
+        Contacts/
+        Desktop/
+        Documents/
+        Downloads/
+        Favorites/
+        IntelGraphicsProfiles/
+        Jedi/
+        Links/
+        MicrosoftEdgeBackups/
+        Music/
+        NTUSER.DAT
+        NTUSER.DAT{534d8ce5-e56c-11ed-8314-9ec446050b20}.TxR.0.regtrans-ms
+        NTUSER.DAT{534d8ce5-e56c-11ed-8314-9ec446050b20}.TxR.1.regtrans-ms
+        NTUSER.DAT{534d8ce5-e56c-11ed-8314-9ec446050b20}.TxR.2.regtrans-ms
+        NTUSER.DAT{534d8ce5-e56c-11ed-8314-9ec446050b20}.TxR.blf
+        NTUSER.DAT{534d8ce6-e56c-11ed-8314-9ec446050b20}.TM.blf
+        NTUSER.DAT{534d8ce6-e56c-11ed-8314-9ec446050b20}.TMContainer00000000000000000001.regtrans-ms
+        NTUSER.DAT{534d8ce6-e56c-11ed-8314-9ec446050b20}.TMContainer00000000000000000002.regtrans-ms
+        OneDrive/
+        Perl-5.36.0-Windows/
+        Pictures/
+        PycharmProjects/
+        Saved Games/
+        Searches/
+        Untitled.ipynb
+        Untitled1.ipynb
+        Untitled10.ipynb
+        Untitled2.ipynb
+        Untitled3.ipynb
+        Untitled4.ipynb
+        Untitled5.ipynb
+        Untitled6.ipynb
+        Untitled7.ipynb
+        Untitled8.ipynb
+        Untitled9.ipynb
+        Videos/
+        anaconda3/
+        condi.py
+        csv.py
+        db.py
+        file.txt
+        form.html
+        kn.py
+        knear.py
+        knn.py
+        lineareg.ipy
+        lineareg.py
+        login.html
+        lr.py
+        naivebay.ipynb
+        new.html
+        ntuser.dat.LOG1
+        ntuser.dat.LOG2
+        ntuser.ini
+        probabaility.py
+        program.1 html.txt
+        program1.html
+        program2.html
+        program3.html
+        program4.html
+        program5.html
+        scikit_learn_data/
+        simple.c
+        ss.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Net-25@DESKTOP-VI9O7ER MINGW64 ~ (master)
+$ git add login.html
+
+Net-25@DESKTOP-VI9O7ER MINGW64 ~ (master)
+$ git status
+warning: could not open directory 'Application Data/': Permission denied
+warning: could not open directory 'Cookies/': Permission denied
+warning: could not open directory 'Local Settings/': Permission denied
+warning: could not open directory 'My Documents/': Permission denied
+warning: could not open directory 'NetHood/': Permission denied
+warning: could not open directory 'PrintHood/': Permission denied
+warning: could not open directory 'Recent/': Permission denied
+warning: could not open directory 'SendTo/': Permission denied
+warning: could not open directory 'Start Menu/': Permission denied
+warning: could not open directory 'Templates/': Permission denied
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   login.html
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   login.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .appletviewer
+        .cache/
+        .condarc
+        .continuum/
+        .gitconfig
+        .idlerc/
+        .ipynb_checkpoints/
+        .ipython/
+        .irbrc
+        .jupyter/
+        .matplotlib/
+        .nbi/
+        .spyder-py3/
+        .vscode/
+        20523h - Shortcut.lnk
+        3D Objects/
+        AppData/
+        Contacts/
+        Desktop/
+        Documents/
+        Downloads/
+        Favorites/
+        IntelGraphicsProfiles/
+        Jedi/
+        Links/
+        MicrosoftEdgeBackups/
+        Music/
+        NTUSER.DAT
+        NTUSER.DAT{534d8ce5-e56c-11ed-8314-9ec446050b20}.TxR.0.regtrans-ms
+        NTUSER.DAT{534d8ce5-e56c-11ed-8314-9ec446050b20}.TxR.1.regtrans-ms
+        NTUSER.DAT{534d8ce5-e56c-11ed-8314-9ec446050b20}.TxR.2.regtrans-ms
+        NTUSER.DAT{534d8ce5-e56c-11ed-8314-9ec446050b20}.TxR.blf
+        NTUSER.DAT{534d8ce6-e56c-11ed-8314-9ec446050b20}.TM.blf
+        NTUSER.DAT{534d8ce6-e56c-11ed-8314-9ec446050b20}.TMContainer00000000000000000001.regtrans-ms
+        NTUSER.DAT{534d8ce6-e56c-11ed-8314-9ec446050b20}.TMContainer00000000000000000002.regtrans-ms
+        OneDrive/
+        Perl-5.36.0-Windows/
+        Pictures/
+        PycharmProjects/
+        Saved Games/
+        Searches/
+        Untitled.ipynb
+        Untitled1.ipynb
+        Untitled10.ipynb
+        Untitled2.ipynb
+        Untitled3.ipynb
+        Untitled4.ipynb
+        Untitled5.ipynb
+        Untitled6.ipynb
+        Untitled7.ipynb
+        Untitled8.ipynb
+        Untitled9.ipynb
+        Videos/
+        anaconda3/
+        condi.py
+        csv.py
+        db.py
+        file.txt
+        form.html
+        kn.py
+        knear.py
+        knn.py
+        lineareg.ipy
+        lineareg.py
+        lr.py
+        naivebay.ipynb
+        new.html
+        ntuser.dat.LOG1
+        ntuser.dat.LOG2
+        ntuser.ini
+        probabaility.py
+        program.1 html.txt
+        program1.html
+        program2.html
+        program3.html
+        program4.html
+        program5.html
+        scikit_learn_data/
+        simple.c
+        ss.html
+
+
+Net-25@DESKTOP-VI9O7ER MINGW64 ~ (master)
+$ git status
+warning: could not open directory 'Application Data/': Permission denied
+warning: could not open directory 'Cookies/': Permission denied
+warning: could not open directory 'Local Settings/': Permission denied
+warning: could not open directory 'My Documents/': Permission denied
+warning: could not open directory 'NetHood/': Permission denied
+warning: could not open directory 'PrintHood/': Permission denied
+warning: could not open directory 'Recent/': Permission denied
+warning: could not open directory 'SendTo/': Permission denied
+warning: could not open directory 'Start Menu/': Permission denied
+warning: could not open directory 'Templates/': Permission denied
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   login.html
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   login.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .appletviewer
+        .cache/
+        .condarc
+        .continuum/
+        .gitconfig
+        .idlerc/
+        .ipynb_checkpoints/
+        .ipython/
+        .irbrc
+        .jupyter/
+        .matplotlib/
+        .nbi/
+        .spyder-py3/
+        .vscode/
+        20523h - Shortcut.lnk
+        3D Objects/
+        AppData/
+        Contacts/
+        Desktop/
+        Documents/
+        Downloads/
+        Favorites/
+        IntelGraphicsProfiles/
+        Jedi/
+        Links/
+        MicrosoftEdgeBackups/
+        Music/
+        NTUSER.DAT
+        NTUSER.DAT{534d8ce5-e56c-11ed-8314-9ec446050b20}.TxR.0.regtrans-ms
+        NTUSER.DAT{534d8ce5-e56c-11ed-8314-9ec446050b20}.TxR.1.regtrans-ms
+        NTUSER.DAT{534d8ce5-e56c-11ed-8314-9ec446050b20}.TxR.2.regtrans-ms
+        NTUSER.DAT{534d8ce5-e56c-11ed-8314-9ec446050b20}.TxR.blf
+        NTUSER.DAT{534d8ce6-e56c-11ed-8314-9ec446050b20}.TM.blf
+        NTUSER.DAT{534d8ce6-e56c-11ed-8314-9ec446050b20}.TMContainer00000000000000000001.regtrans-ms
+        NTUSER.DAT{534d8ce6-e56c-11ed-8314-9ec446050b20}.TMContainer00000000000000000002.regtrans-ms
+        OneDrive/
+        Perl-5.36.0-Windows/
+        Pictures/
+        PycharmProjects/
+        Saved Games/
+        Searches/
+        Untitled.ipynb
+        Untitled1.ipynb
+        Untitled10.ipynb
+        Untitled2.ipynb
+        Untitled3.ipynb
+        Untitled4.ipynb
+        Untitled5.ipynb
+        Untitled6.ipynb
+        Untitled7.ipynb
+        Untitled8.ipynb
+        Untitled9.ipynb
+        Videos/
+        anaconda3/
+        condi.py
+        csv.py
+        db.py
+        file.txt
+        form.html
+        kn.py
+        knear.py
+        knn.py
+        lineareg.ipy
+        lineareg.py
+        lr.py
+        naivebay.ipynb
+        new.html
+        ntuser.dat.LOG1
+        ntuser.dat.LOG2
+        ntuser.ini
+        probabaility.py
+        program.1 html.txt
+        program1.html
+        program2.html
+        program3.html
+        program4.html
+        program5.html
+        scikit_learn_data/
+        simple.c
+        ss.html
+
+
+Net-25@DESKTOP-VI9O7ER MINGW64 ~ (master)
+$ git commit -m "bgcolor added"
+[master (root-commit) 0386ce4] bgcolor added
+ 1 file changed, 12 insertions(+)
+ create mode 100644 login.html
+
+Net-25@DESKTOP-VI9O7ER MINGW64 ~ (master)
+$ git log -n -1
+commit 0386ce400c5541ff8c7832eaa76f6bdf85fccf83 (HEAD -> master)
+Author: vinkitha <Vinkithareddy12@gmail.com>
+Date:   Thu Apr 18 10:28:11 2024 +0530
+
+    bgcolor added
+
+Net-25@DESKTOP-VI9O7ER MINGW64 ~ (master)
+$ git log -n -5
+commit 0386ce400c5541ff8c7832eaa76f6bdf85fccf83 (HEAD -> master)
+Author: vinkitha <Vinkithareddy12@gmail.com>
+Date:   Thu Apr 18 10:28:11 2024 +0530
+
+    bgcolor added
+
+Net-25@DESKTOP-VI9O7ER MINGW64 ~ (master)
+$ touch 6610.html
+
+Net-25@DESKTOP-VI9O7ER MINGW64 ~ (master)
+$ git rm -f 6610.html
+fatal: pathspec '6610.html' did not match any files
+
+Net-25@DESKTOP-VI9O7ER MINGW64 ~ (master)
+$ git add 6610.html
+
+Net-25@DESKTOP-VI9O7ER MINGW64 ~ (master)
+$ git rm -f 6610.html
+rm '6610.html'
+
+Net-25@DESKTOP-VI9O7ER MINGW64 ~ (master)
+$ git rm -f 6610.html
+fatal: pathspec '6610.html' did not match any files
+
+Net-25@DESKTOP-VI9O7ER MINGW64 ~ (master)
+$ git add login.html
+
+Net-25@DESKTOP-VI9O7ER MINGW64 ~ (master)
+$ git status
+warning: could not open directory 'Application Data/': Permission denied
+warning: could not open directory 'Cookies/': Permission denied
+warning: could not open directory 'Local Settings/': Permission denied
+warning: could not open directory 'My Documents/': Permission denied
+warning: could not open directory 'NetHood/': Permission denied
+warning: could not open directory 'PrintHood/': Permission denied
+warning: could not open directory 'Recent/': Permission denied
+warning: could not open directory 'SendTo/': Permission denied
+warning: could not open directory 'Start Menu/': Permission denied
+warning: could not open directory 'Templates/': Permission denied
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   login.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .appletviewer
+        .cache/
+        .condarc
+        .continuum/
+        .gitconfig
+        .idlerc/
+        .ipynb_checkpoints/
+        .ipython/
+        .irbrc
+        .jupyter/
+        .lesshst
+        .matplotlib/
+        .nbi/
+        .spyder-py3/
+        .vscode/
+        20523h - Shortcut.lnk
+        3D Objects/
+        AppData/
+        Contacts/
+        Desktop/
+        Documents/
+        Downloads/
+        Favorites/
+        IntelGraphicsProfiles/
+        Jedi/
+        Links/
+        MicrosoftEdgeBackups/
+        Music/
+        NTUSER.DAT
+        NTUSER.DAT{534d8ce5-e56c-11ed-8314-9ec446050b20}.TxR.0.regtrans-ms
+        NTUSER.DAT{534d8ce5-e56c-11ed-8314-9ec446050b20}.TxR.1.regtrans-ms
+        NTUSER.DAT{534d8ce5-e56c-11ed-8314-9ec446050b20}.TxR.2.regtrans-ms
+        NTUSER.DAT{534d8ce5-e56c-11ed-8314-9ec446050b20}.TxR.blf
+        NTUSER.DAT{534d8ce6-e56c-11ed-8314-9ec446050b20}.TM.blf
+        NTUSER.DAT{534d8ce6-e56c-11ed-8314-9ec446050b20}.TMContainer00000000000000000001.regtrans-ms
+        NTUSER.DAT{534d8ce6-e56c-11ed-8314-9ec446050b20}.TMContainer00000000000000000002.regtrans-ms
+        OneDrive/
+        Perl-5.36.0-Windows/
+        Pictures/
+        PycharmProjects/
+        Saved Games/
+        Searches/
+        Untitled.ipynb
+        Untitled1.ipynb
+        Untitled10.ipynb
+        Untitled2.ipynb
+        Untitled3.ipynb
+        Untitled4.ipynb
+        Untitled5.ipynb
+        Untitled6.ipynb
+        Untitled7.ipynb
+        Untitled8.ipynb
+        Untitled9.ipynb
+        Videos/
+        anaconda3/
+        condi.py
+        csv.py
+        db.py
+        file.txt
+        form.html
+        kn.py
+        knear.py
+        knn.py
+        lineareg.ipy
+        lineareg.py
+        lr.py
+        naivebay.ipynb
+        new.html
+        ntuser.dat.LOG1
+        ntuser.dat.LOG2
+        ntuser.ini
+        probabaility.py
+        program.1 html.txt
+        program1.html
+        program2.html
+        program3.html
+        program4.html
+        program5.html
+        scikit_learn_data/
+        simple.c
+        ss.html
+
+
+Net-25@DESKTOP-VI9O7ER MINGW64 ~ (master)
+$ git checkout login.html
+Updated 0 paths from the index
+
+Net-25@DESKTOP-VI9O7ER MINGW64 ~ (master)
+$ git status
+warning: could not open directory 'Application Data/': Permission denied
+warning: could not open directory 'Cookies/': Permission denied
+warning: could not open directory 'Local Settings/': Permission denied
+warning: could not open directory 'My Documents/': Permission denied
+warning: could not open directory 'NetHood/': Permission denied
+warning: could not open directory 'PrintHood/': Permission denied
+warning: could not open directory 'Recent/': Permission denied
+warning: could not open directory 'SendTo/': Permission denied
+warning: could not open directory 'Start Menu/': Permission denied
+warning: could not open directory 'Templates/': Permission denied
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   login.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .appletviewer
+        .cache/
+        .condarc
+        .continuum/
+        .gitconfig
+        .idlerc/
+        .ipynb_checkpoints/
+        .ipython/
+        .irbrc
+        .jupyter/
+        .lesshst
+        .matplotlib/
+        .nbi/
+        .spyder-py3/
+        .vscode/
+        20523h - Shortcut.lnk
+        3D Objects/
+        AppData/
+        Contacts/
+        Desktop/
+        Documents/
+        Downloads/
+        Favorites/
+        IntelGraphicsProfiles/
+        Jedi/
+        Links/
+        MicrosoftEdgeBackups/
+        Music/
+        NTUSER.DAT
+        NTUSER.DAT{534d8ce5-e56c-11ed-8314-9ec446050b20}.TxR.0.regtrans-ms
+        NTUSER.DAT{534d8ce5-e56c-11ed-8314-9ec446050b20}.TxR.1.regtrans-ms
+        NTUSER.DAT{534d8ce5-e56c-11ed-8314-9ec446050b20}.TxR.2.regtrans-ms
+        NTUSER.DAT{534d8ce5-e56c-11ed-8314-9ec446050b20}.TxR.blf
+        NTUSER.DAT{534d8ce6-e56c-11ed-8314-9ec446050b20}.TM.blf
+        NTUSER.DAT{534d8ce6-e56c-11ed-8314-9ec446050b20}.TMContainer00000000000000000001.regtrans-ms
+        NTUSER.DAT{534d8ce6-e56c-11ed-8314-9ec446050b20}.TMContainer00000000000000000002.regtrans-ms
+        OneDrive/
+        Perl-5.36.0-Windows/
+        Pictures/
+        PycharmProjects/
+        Saved Games/
+        Searches/
+        Untitled.ipynb
+        Untitled1.ipynb
+        Untitled10.ipynb
+        Untitled2.ipynb
+        Untitled3.ipynb
+        Untitled4.ipynb
+        Untitled5.ipynb
+        Untitled6.ipynb
+        Untitled7.ipynb
+        Untitled8.ipynb
+        Untitled9.ipynb
+        Videos/
+        anaconda3/
+        condi.py
+        csv.py
+        db.py
+        file.txt
+        form.html
+        kn.py
+        knear.py
+        knn.py
+        lineareg.ipy
+        lineareg.py
+        lr.py
+        naivebay.ipynb
+        new.html
+        ntuser.dat.LOG1
+        ntuser.dat.LOG2
+        ntuser.ini
+        probabaility.py
+        program.1 html.txt
+        program1.html
+        program2.html
+        program3.html
+        program4.html
+        program5.html
+        scikit_learn_data/
+        simple.c
+        ss.html
+
+
+Net-25@DESKTOP-VI9O7ER MINGW64 ~ (master)
+$ git checkout login.html
+Updated 0 paths from the index
+
+Net-25@DESKTOP-VI9O7ER MINGW64 ~ (master)
+$ git checkout login.html
+Updated 1 path from the index
+
+Net-25@DESKTOP-VI9O7ER MINGW64 ~ (master)
+$ git branch csm
+
+Net-25@DESKTOP-VI9O7ER MINGW64 ~ (master)
+$ git branch
+  csm
+* master
+
+Net-25@DESKTOP-VI9O7ER MINGW64 ~ (master)
+$ git merge "master" "csm"
+Already up to date.
+
+Net-25@DESKTOP-VI9O7ER MINGW64 ~ (master)
+$ git remote add https://github.com/VinkithaReddy/devops.git
+usage: git remote add [<options>] <name> <url>
+
+    -f, --[no-]fetch      fetch the remote branches
+    --[no-]tags           import all tags and associated objects when fetching
+                          or do not fetch any tag at all (--no-tags)
+    -t, --[no-]track <branch>
+                          branch(es) to track
+    -m, --[no-]master <branch>
+                          master branch
+    --[no-]mirror[=(push|fetch)]
+                          set up remote as a mirror to push to or fetch from
+
+
+Net-25@DESKTOP-VI9O7ER MINGW64 ~ (master)
+$ git remote add origin https://github.com/VinkithaReddy/devops.git
+
+Net-25@DESKTOP-VI9O7ER MINGW64 ~ (master)
+$ git push -u origin master
+info: please complete authentication in your browser...
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 411 bytes | 51.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'master' on GitHub by visiting:
+remote:      https://github.com/VinkithaReddy/devops/pull/new/master
+remote:
+To https://github.com/VinkithaReddy/devops.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+
+Net-25@DESKTOP-VI9O7ER MINGW64 ~ (master)
+$
